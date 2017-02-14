@@ -71,6 +71,8 @@
 			<!-- <Image condition="image">C:\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe</Image> --> <!--Dropbox:Updater: Lots of command-line arguments-->
 			<!--SECTION: Dell-->
 			<!-- <ParentImage condition="image">C:\Program Files (x86)\Dell\CommandUpdate\InvColPC.exe</ParentImage> --> <!--Dell:CommandUpdate: Detection process-->
+			<!-- SECTION: LANDesk Manager -->
+			<Image condition="image">C:\Program Files (x86)\LANDesk\LDClient\GetInputInfo.exe <!-- Standard LANDesk information gathering -->
 		</ProcessCreate>
 
 	<!--SYSMON EVENT ID 2 : FILE CREATION TIME RETROACTIVELY CHANGED IN THE FILESYSTEM -->
